@@ -29,15 +29,15 @@
                     background: $primary;
                     width: 0;
                     height: 3px;
-                    transition: .7s;
+                    transition: 2s;
                 }
             }
             mat-list-item.nav-active {
                 div.indicator {
-                    transition: .5s;
                     border-radius: 5px;
                     width: calc(100% - 32px);
                     margin-left: 0;
+                    transition: .5s;
                 }
             }
         }

@@ -1,6 +1,6 @@
 <mat-nav-list>
   <mat-list-item disableRipple *ngFor="let option of options" routerLink="{{ option.url }}"  routerLinkActive="nav-active" [routerLinkActiveOptions]="{ exact: true }">
       <a matLine translate class="{{ color }}">{{ option.name }}</a>
-      <div class="indicator {{ indicator }}"></div>
+      <div class="{{ indicator }} indicator"></div>
   </mat-list-item>
 </mat-nav-list>
