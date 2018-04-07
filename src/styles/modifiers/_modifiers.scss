@@ -1,0 +1,13 @@
+ul.home-list {
+    margin-top: -10px;
+    line-height: 4;
+    list-style: none !important;
+    span.circle {
+        width: 25px;
+        height: 25px;
+        border-radius: 100%;
+        position: absolute;
+        margin-left: -35px;
+        margin-top: 20px;
+    }
+}

@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ActivatedRoute, RouterModule, Routes, RouterLinkActive } from '@angular/router';
-
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatListModule } from '@angular/material/list';
@@ -25,7 +25,8 @@ import { NavComponent } from './components/nav/nav.component';
     RouterModule.forRoot(AppRoutes),
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatListModule
+    MatListModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

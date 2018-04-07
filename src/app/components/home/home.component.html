@@ -4,27 +4,38 @@
     <div class="f-principal white-text">
         <br>
         <p class="line-1 anim-typewriter">
-            <span class="feel">FEEL</span>
-            <span class="think">THINK</span>
+            WEB DESIGN - ILLUSTRATION
         </p>
     </div>
 </div>
-<div class="padd-50 warm"> 
+<div class="padd-50"> 
     <h1>hi, i’m aranza</h1>
-    <p>Hi! I’m a UX designer based in Buenos Aires. Originally from Venezuela. I specialize in UI/UX design and have a passion for empathy towards solving user goals.</p>
+    <p fxFlex="50%">Hi! I’m a UX designer based in Buenos Aires. Originally from Venezuela. I specialize in UI/UX design and have a passion for empathy towards solving user goals.</p>
 </div>
-<div class="padd-50">
-    <div class="hue">
-        <h1>clients</h1>
+<div fxLayout="row" fxLayout.xs="column">
+    <div class="x-light-grey padd-50" fxFlex="50%" [ngClass.sm]="{'fxClass-sm': hasStyle}">
+        <h2>clients</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit non urna nec maximus. Integer nisl turpis, placerat at lobortis ut, estibulum eget.</p>
     </div>
-    <div class="accent">
-        <h1>areas</h1>
-        Hi! I’m a UX designer based in Buenos Aires. Originally from Venezuela. I specialize in UI/UX design and have a passion for empathy towards solving user goals.
+    <div class="light-grey padd-50" fxFlex="50%">
+        <h2>areas</h2>
+        <div fxLayout="row">
+            <ul class="home-list" fxFlex="50%">
+                <li><span class="accent circle"></span>Ecommerce</li>
+                <li><span class="accent circle"></span>Administrative</li>
+                <li><span class="accent circle"></span>Advertising</li>
+            </ul>
+            <ul class="home-list" fxFlex="50%">
+                <li><span class="accent circle"></span>Automotive</li>
+                <li><span class="accent circle"></span>Illustration</li>
+                <li><span class="accent circle"></span>Mobile services</li>
+            </ul>
+        </div>
+        
     </div>
 </div>
 <div class="padd-50">
-    <div class="hue">
+    <div class="center">
         <h1>my work</h1>
     </div>
 </div>
