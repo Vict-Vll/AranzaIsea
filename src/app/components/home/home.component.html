@@ -1,5 +1,5 @@
 <div class="head-home">
-    <app-menu [color]="'white-text'" [indicator]="'white'" [home]="true"></app-menu>
+    <app-menu fxHide.xs [color]="'white-text'" [indicator]="'white'" [home]="true"></app-menu>
     <img src="../../../assets/images/logo.png" class="logo-home">
     <div class="f-principal white-text">
         <br>
@@ -9,16 +9,16 @@
     </div>
 </div>
 <div class="padd-50"> 
-    <h1>hi, i’m aranza</h1>
-    <p fxFlex="50%">Hi! I’m a UX designer based in Buenos Aires. Originally from Venezuela. I specialize in UI/UX design and have a passion for empathy towards solving user goals.</p>
+    <h1>Hi, I’m Aranza</h1>
+    <p fxFlex.gt-xs="50%">Hi! I’m a UX designer based in Buenos Aires. Originally from Venezuela. I specialize in UI/UX design and have a passion for empathy towards solving user goals.</p>
 </div>
 <div fxLayout="row" fxLayout.xs="column">
     <div class="x-light-grey padd-50" fxFlex="50%" [ngClass.sm]="{'fxClass-sm': hasStyle}">
-        <h2>clients</h2>
+        <h2>CLIENTS</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit non urna nec maximus. Integer nisl turpis, placerat at lobortis ut, estibulum eget.</p>
     </div>
     <div class="light-grey padd-50" fxFlex="50%">
-        <h2>areas</h2>
+        <h2>AREAS</h2>
         <div fxLayout="row">
             <ul class="home-list" fxFlex="50%">
                 <li><span class="accent circle"></span>Ecommerce</li>
@@ -36,11 +36,21 @@
 </div>
 <div class="padd-50">
     <div class="center">
-        <h1>my work</h1>
+        <h1>MY WORK</h1>
+        <span class="secundary underline"></span>
+        
     </div>
 </div>
 <div class="padd-50 primary">
     <div class="center">
-        <h1 class="white-text">know some more</h1>
+        <h1 class="white-text">KNOW SOME MORE</h1>
+        <span class="secundary underline"></span>
+        <div fxLayout="column" class="m-top-80">
+            <button class="m-0-auto btn-light" mat-button>MORE ABOUT ME</button>
+            <br>
+            <button class="m-0-auto btn-light" mat-button>SHOW ME A MESSAGE</button>
+        </div>
     </div>
+    <br><br><br>
+    <app-menu fxHide.xs [color]="'white-text'" [indicator]="'white'" [home]="true"></app-menu>
 </div>
