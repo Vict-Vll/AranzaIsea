@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+//BASE
+@import 'base/base';
+@import 'base/variables';
+@import 'base/fonts';
+@import 'base/colors';
+//BLOCK
+@import 'block/containers';
+@import 'block/header';
+//ELEMENTS
+@import 'elements/buttons';
+@import 'elements/icons';
+//BLOCK
+@import 'modifiers/margins';
+@import 'modifiers/modifiers';
+@import 'modifiers/paddings';
+@import 'modifiers/sizes';

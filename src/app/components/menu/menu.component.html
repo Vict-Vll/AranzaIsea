@@ -1,0 +1,7 @@
+<mat-toolbar class="header">
+  <a *ngIf="!home" disableRipple routerLink="" class="img-header-logo">
+    <img *ngIf="color === 'primary-text'" src="../../assets/images/small-black.png">
+    <img *ngIf="color === 'white-text'" src="../../assets/images/small-white.png">
+  </a>
+  <app-nav [color]="color" [indicator]="indicator"></app-nav>
+</mat-toolbar>

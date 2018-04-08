@@ -1,0 +1,45 @@
+.header {
+    background-color: transparent;
+    a.img-header-logo {
+        position: absolute;
+        outline: none;
+        margin-left: 100px;
+        margin-top: 4px;
+        img {
+            width: 45px;
+            height: 45px;
+        }
+    }
+    app-nav {
+        margin: 0 auto;
+        mat-nav-list {
+            display: inline-flex;
+            width: 476px;
+            text-align: center;
+            mat-list-item {
+                background: none !important;
+                padding: 0;
+                font-size: 12px;
+                font-family: $principal-font !important;
+                margin: 0 15px;
+                div.indicator {
+                    position: absolute;
+                    margin-left: 35%;
+                    margin-top: 15px;
+                    background: $primary;
+                    width: 0;
+                    height: 3px;
+                    transition: 2s;
+                }
+            }
+            mat-list-item.nav-active {
+                div.indicator {
+                    border-radius: 5px;
+                    width: calc(100% - 32px);
+                    margin-left: 0;
+                    transition: .5s;
+                }
+            }
+        }
+    }
+}
