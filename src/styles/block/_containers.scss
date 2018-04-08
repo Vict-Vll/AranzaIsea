@@ -7,12 +7,11 @@
     top: 0;
     z-index: -1;
     .logo-home {
-        margin-top: 160px;
-        width: 250px;
-        margin-left: calc(50% - 125px);
+        margin-top: 100px;
+        width: 300px;
+        margin-left: calc(50% - 150px);
     }
 }
-
 
 .line-1 {
     position: relative;
@@ -25,7 +24,7 @@
 
 .anim-typewriter {
   animation: typewriter 3s steps(25) 2s 1 normal both,
-             blinkTextCursor .5s steps(8) infinite normal;
+             blinkTextCursor 1s steps(8) infinite normal;
 }
 
 @keyframes typewriter {
@@ -34,6 +33,6 @@
 }
 
 @keyframes blinkTextCursor{
-  from{ border-right-color: $warm; }
-  to{ border-right-color: transparent; }
+  from { border-right-color: $warm; }
+  to { border-right-color: transparent; }
 }
