@@ -1,4 +1,5 @@
 //BASE
+@import 'base/mixins';
 @import 'base/base';
 @import 'base/variables';
 @import 'base/fonts';
@@ -9,6 +10,7 @@
 //ELEMENTS
 @import 'elements/buttons';
 @import 'elements/icons';
+@import 'elements/tabs';
 //BLOCK
 @import 'modifiers/margins';
 @import 'modifiers/modifiers';
