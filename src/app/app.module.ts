@@ -7,12 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
+import { MatTabsModule } from '@angular/material/tabs';
 
 import { AppRoutes } from '../configs/routes';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { NavComponent } from './components/nav/nav.component';
+import { AboutComponent } from './components/about/about.component';
 
 
 @NgModule({
@@ -20,7 +22,8 @@ import { NavComponent } from './components/nav/nav.component';
     AppComponent,
     HomeComponent,
     MenuComponent,
-    NavComponent
+    NavComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +32,8 @@ import { NavComponent } from './components/nav/nav.component';
     MatToolbarModule,
     MatListModule,
     MatButtonModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

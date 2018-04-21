@@ -1,0 +1,129 @@
+<app-menu fxHide.xs [color]="'primary-text'" [indicator]="'secundary'" [home]="false"></app-menu>
+<div fxLayout="row"> 
+  <div fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" class="black">
+    <div class="padd-120 about-me-image" [ngStyle.xs]="{'background-position': top}" fxFlex="50%" fxHide.gt-sm>
+    </div>
+      <div class="x-light-grey padd-100 max-h-100" fxFlex="50%">
+        <br>
+        <h1>ABOUT ME</h1>
+        <p class="f-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit non urna nec maximus. Integer nisl turpis, placerat at lobortis ut, estibulum eget.</p>
+        <p class="f-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nemo praesentium dignissimos repellat voluptates accusantium, sed adipisci esse, nobis amet in quas minima ut blanditiis, odit quis reiciendis impedit aliquam!</p>
+      </div>
+      <div class="padd-50 about-me-image max-h-100" fxFlex="50%" fxHide.xs fxHide.sm>
+      </div>
+  </div>
+</div>
+<div class="m-top-50">
+  <mat-tab-group class="skills-tab-group" dynamicHeight="true">
+    <mat-tab label="HARD SKILLS">
+      <ng-template mat-tab-label>
+        <span class="f-principal">HARD SKILLS</span>
+      </ng-template>
+      <div class="padd-50" fxLayout="column">
+        <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="row">
+            <div class="skill-container center padd-20" fxFlex="33%" fxFlex.sm="50%">
+              <img src="../assets/images/about/About1.png" class="skill-img" alt="">
+              <h3>illustration</h3>
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi exercitationem quos ratione non voluptatum atque corporis.</span>
+            </div>
+            <div class="skill-container center padd-20" fxFlex="33%" fxFlex.sm="50%">
+              <img src="../assets/images/about/About2.png" class="skill-img" alt="">
+              <h3>storytelling</h3>
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi exercitationem quos ratione non voluptatum atque corporis.</span>
+            </div>
+            <div class="skill-container center padd-20" fxFlex="33%" fxHide.sm>
+              <img src="../assets/images/about/About3.png" class="skill-img" alt="">
+              <h3>prototyping</h3>
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi exercitationem quos ratione non voluptatum atque corporis.</span>
+            </div>
+        </div>
+        <div fxLayout="row" fxHide.xs fxHide.gt-sm>
+            <div class="skill-container center padd-20" fxFlex="50%">
+                <img src="../assets/images/about/About3.png" class="skill-img" alt="">
+                <h3>prototyping</h3>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi exercitationem quos ratione non voluptatum atque corporis.</span>
+            </div>
+            <div class="skill-container center padd-20" fxFlex="50%">
+              <img src="../assets/images/about/About6.png" class="skill-img" alt="">
+              <h3>responsive web design</h3>
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi exercitationem quos ratione non voluptatum atque corporis.</span>
+            </div>
+        </div>
+        <div fxLayout="row" fxLayout.xs="column">
+            <div class="skill-container center padd-20" fxFlex="33%" fxHide.sm>
+              <img src="../assets/images/about/About6.png" class="skill-img" alt="">
+              <h3>responsive web design</h3>
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi exercitationem quos ratione non voluptatum atque corporis.</span>
+            </div>
+            <div class="skill-container center padd-20" fxFlex="33%" fxFlex.sm="50%">
+              <img src="../assets/images/about/About4.png" class="skill-img" alt="">
+              <h3>websites, web apps<br>& app design</h3>
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi exercitationem quos ratione non voluptatum atque corporis.</span>
+            </div>
+            <div class="skill-container center padd-20" fxFlex="33%" fxFlex.sm="50%">
+              <img src="../assets/images/about/About5.png" class="skill-img" alt="">
+              <h3>ux/ui experience</h3>
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi exercitationem quos ratione non voluptatum atque corporis.</span>
+            </div>
+        </div>
+      </div>
+    </mat-tab>
+    <mat-tab label="SOFT SKILS">
+      <ng-template mat-tab-label>
+        <span class="f-principal">SOFT SKILS</span>
+      </ng-template>
+      <div class="padd-50" fxLayout="row" fxLayout.sm="column" fxLayout.xs="column">
+        <div class="skill-container center padd-20" fxFlex="33%">
+          <img src="../assets/images/about/About7.png" class="skill-img" alt="">
+          <h3>teamwork</h3>
+        </div>
+        <div class="skill-container center padd-20" fxFlex="33%">
+          <img src="../assets/images/about/About9.png" class="skill-img" alt="">
+          <h3>passion</h3>
+        </div>
+        <div class="skill-container center padd-20" fxFlex="33%">
+          <img src="../assets/images/about/About8.png" class="skill-img" alt="">
+          <h3>addaptability</h3>
+        </div>
+      </div>  
+    </mat-tab>
+  </mat-tab-group>
+</div>
+<div class="padd-50 x-light-grey center" fxLayout="row" fxLayout.xs="column">
+  <div class="container-cover" fxFlex="33%">
+    <div class="interestings-cover playing m-0-auto"></div>
+    <br>
+    <span class="secundary underline-small"></span>
+    <br>
+    <span class="center f-principal">PLAYING</span>
+  </div>
+  <div class="container-cover" fxFlex="33%">
+    <div class="interestings-cover watching m-0-auto"></div>
+    <br>
+    <span class="secundary underline-small"></span>
+    <br>
+    <span class="center f-principal">WATCHING</span>
+  </div>
+  <div class="container-cover" fxFlex="33%">
+    <div class="interestings-cover gaming m-0-auto"></div>
+    <br>
+    <span class="secundary underline-small"></span>
+    <br>
+    <span class="center f-principal">GAMING</span>
+  </div>
+</div>
+<div class="padd-50 primary">
+    <div class="center">
+        <h3 class="white-text">KNOW SOME MORE</h3>
+        <span class="secundary underline"></span>
+        <div fxLayout="column" class="m-top-80">
+            <button class="m-0-auto btn-light" mat-button>SEE MY WORK</button>
+            <br>
+            <button class="m-0-auto btn-light" mat-button>SHOW ME A MESSAGE</button>
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <app-menu fxHide.xs [color]="'white-text'" [indicator]="'white'" [home]="true"></app-menu>
+    <br><br>
+    <p class="f-small f-principal grey-text center">Copyright 2017 Aranza Isea</p>
+</div>

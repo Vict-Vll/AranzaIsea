@@ -1,0 +1,24 @@
+.mat-tab-group.skills-tab-group {
+    .mat-tab-header {
+        margin: 0 auto;
+        div.mat-tab-label {
+            transition: .3s;
+            font-size: 18px;
+            background: $light-grey !important;
+            color: $dark-grey;
+        }
+        div.mat-tab-label.mat-tab-label-active {
+            background: $accent !important;
+            color: $white;
+        }
+        mat-ink-bar {
+            background: $accent !important;
+        }
+        div.mat-tab-header-pagination.mat-tab-header-pagination-after.mat-elevation-z4.mat-ripple.mat-tab-header-pagination-disabled {
+            display: none;
+        }
+        div.mat-tab-header-pagination.mat-tab-header-pagination-before.mat-elevation-z4.mat-ripple.mat-tab-header-pagination-disabled {
+            display: none;
+        }
+    }
+}
