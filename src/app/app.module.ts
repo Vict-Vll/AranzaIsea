@@ -8,6 +8,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
 import { MatTabsModule } from '@angular/material/tabs';
+import { UICarouselModule } from 'ui-carousel';
 
 import { AppRoutes } from '../configs/routes';
 import { AppComponent } from './app.component';
@@ -33,7 +34,8 @@ import { AboutComponent } from './components/about/about.component';
     MatListModule,
     MatButtonModule,
     FlexLayoutModule,
-    MatTabsModule
+    MatTabsModule,
+    UICarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

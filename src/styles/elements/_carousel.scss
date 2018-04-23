@@ -1,0 +1,17 @@
+ui-carousel {
+    height: 450px !important;
+    div.ui-carousel-item.fade {
+        background-color: $white;
+    }
+    dots {
+        div.dot {
+            background-color: $dark-grey !important;
+        }
+        div.dot.active {
+            background-color: $secundary !important;
+        }
+    }
+    @include breakpoint(tablet-down) {
+        height: 1100px !important;
+    }
+}
