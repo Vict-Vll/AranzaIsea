@@ -19,73 +19,78 @@
       <ng-template mat-tab-label>
         <span class="f-principal">HARD SKILLS</span>
       </ng-template>
-      <div class="padd-50" fxLayout="column">
-        <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="row">
-            <div class="skill-container center padd-20" fxFlex="33%" fxFlex.sm="50%">
-              <img src="../assets/images/about/About1.png" class="skill-img" alt="">
-              <h3>illustration</h3>
-              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi exercitationem quos ratione non voluptatum atque corporis.</span>
+      <ui-carousel [infinite]="true" [fade]="false" [speed]="1000" [arrows]="false">
+        <ui-carousel-item>
+          <div class="padd-50" fxLayout="column">
+            <div fxLayout="row" fxLayout.sm="column" fxLayout.xs="column">
+                <div class="skill-container center padd-20" fxFlex="33%">
+                  <img src="../assets/images/about/About1.png" class="skill-img" alt="">
+                  <h3>illustration</h3>
+                  <span class="f-principal">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                </div>
+                <div class="skill-container center padd-20" fxFlex="33%">
+                  <img src="../assets/images/about/About2.png" class="skill-img" alt="">
+                  <h3>storytelling</h3>
+                  <span class="f-principal">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                </div>
+                <div class="skill-container center padd-20" fxFlex="33%">
+                  <img src="../assets/images/about/About3.png" class="skill-img" alt="">
+                  <h3>prototyping</h3>
+                  <span class="f-principal">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                </div>
             </div>
-            <div class="skill-container center padd-20" fxFlex="33%" fxFlex.sm="50%">
-              <img src="../assets/images/about/About2.png" class="skill-img" alt="">
-              <h3>storytelling</h3>
-              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi exercitationem quos ratione non voluptatum atque corporis.</span>
+          </div>
+        </ui-carousel-item>
+        <ui-carousel-item>
+          <div class="padd-50" fxLayout="column">
+            <div fxLayout="row" fxLayout.sm="column" fxLayout.xs="column">
+                <div class="skill-container center padd-20" fxFlex="33%">
+                  <img src="../assets/images/about/About6.png" class="skill-img" alt="">
+                  <h3>responsive web design</h3>
+                  <span class="f-principal">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                </div>
+                <div class="skill-container center padd-20" fxFlex="33%">
+                  <img src="../assets/images/about/About4.png" class="skill-img" alt="">
+                  <h3>websites, web apps<br>& app design</h3>
+                  <span class="f-principal">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                </div>
+                <div class="skill-container center padd-20" fxFlex="33%">
+                  <img src="../assets/images/about/About5.png" class="skill-img" alt="">
+                  <h3>ux/ui experience</h3>
+                  <span class="f-principal">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                </div>
             </div>
-            <div class="skill-container center padd-20" fxFlex="33%" fxHide.sm>
-              <img src="../assets/images/about/About3.png" class="skill-img" alt="">
-              <h3>prototyping</h3>
-              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi exercitationem quos ratione non voluptatum atque corporis.</span>
-            </div>
-        </div>
-        <div fxLayout="row" fxHide.xs fxHide.gt-sm>
-            <div class="skill-container center padd-20" fxFlex="50%">
-                <img src="../assets/images/about/About3.png" class="skill-img" alt="">
-                <h3>prototyping</h3>
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi exercitationem quos ratione non voluptatum atque corporis.</span>
-            </div>
-            <div class="skill-container center padd-20" fxFlex="50%">
-              <img src="../assets/images/about/About6.png" class="skill-img" alt="">
-              <h3>responsive web design</h3>
-              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi exercitationem quos ratione non voluptatum atque corporis.</span>
-            </div>
-        </div>
-        <div fxLayout="row" fxLayout.xs="column">
-            <div class="skill-container center padd-20" fxFlex="33%" fxHide.sm>
-              <img src="../assets/images/about/About6.png" class="skill-img" alt="">
-              <h3>responsive web design</h3>
-              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi exercitationem quos ratione non voluptatum atque corporis.</span>
-            </div>
-            <div class="skill-container center padd-20" fxFlex="33%" fxFlex.sm="50%">
-              <img src="../assets/images/about/About4.png" class="skill-img" alt="">
-              <h3>websites, web apps<br>& app design</h3>
-              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi exercitationem quos ratione non voluptatum atque corporis.</span>
-            </div>
-            <div class="skill-container center padd-20" fxFlex="33%" fxFlex.sm="50%">
-              <img src="../assets/images/about/About5.png" class="skill-img" alt="">
-              <h3>ux/ui experience</h3>
-              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi exercitationem quos ratione non voluptatum atque corporis.</span>
-            </div>
-        </div>
-      </div>
+          </div>
+        </ui-carousel-item>
+      </ui-carousel>
     </mat-tab>
     <mat-tab label="SOFT SKILS">
       <ng-template mat-tab-label>
         <span class="f-principal">SOFT SKILS</span>
       </ng-template>
-      <div class="padd-50" fxLayout="row" fxLayout.sm="column" fxLayout.xs="column">
-        <div class="skill-container center padd-20" fxFlex="33%">
-          <img src="../assets/images/about/About7.png" class="skill-img" alt="">
-          <h3>teamwork</h3>
-        </div>
-        <div class="skill-container center padd-20" fxFlex="33%">
-          <img src="../assets/images/about/About9.png" class="skill-img" alt="">
-          <h3>passion</h3>
-        </div>
-        <div class="skill-container center padd-20" fxFlex="33%">
-          <img src="../assets/images/about/About8.png" class="skill-img" alt="">
-          <h3>addaptability</h3>
-        </div>
-      </div>  
+      <ui-carousel [arrows]="false">
+          <ui-carousel-item>
+            <div class="padd-50" fxLayout="column">
+              <div fxLayout="row" fxLayout.sm="column" fxLayout.xs="column">
+                  <div class="skill-container center padd-20" fxFlex="33%">
+                    <img src="../assets/images/about/About7.png" class="skill-img" alt="">
+                    <h3>teamwork</h3>
+                    <span class="f-principal">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                  </div>
+                  <div class="skill-container center padd-20" fxFlex="33%">
+                    <img src="../assets/images/about/About9.png" class="skill-img" alt="">
+                    <h3>passion</h3>
+                    <span class="f-principal">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                  </div>
+                  <div class="skill-container center padd-20" fxFlex="33%">
+                    <img src="../assets/images/about/About8.png" class="skill-img" alt="">
+                    <h3>addaptability</h3>
+                    <span class="f-principal">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                  </div>
+              </div>
+            </div>
+          </ui-carousel-item>
+      </ui-carousel>  
     </mat-tab>
   </mat-tab-group>
 </div>
