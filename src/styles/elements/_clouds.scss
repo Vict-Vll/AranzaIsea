@@ -27,7 +27,7 @@
 }
 .cloud5 {
     top: 390px;
-    animation: cloudMove infinite 50s linear;
+    animation: cloudMove2 infinite 50s linear;
 }
 
 @keyframes cloudMove {
@@ -36,6 +36,14 @@
     }
     100% {
         transform: translateX(100%)
+    }
+}
+@keyframes cloudMove2 {
+    0% {
+        transform: translateX(-100%)
+    }
+    100% {
+        transform: translateX(50%)
     }
 }
 @keyframes cloudMoveReverse {
