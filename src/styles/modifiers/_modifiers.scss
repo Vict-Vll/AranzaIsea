@@ -27,3 +27,16 @@ ul.home-list {
     margin: 0 auto;
     margin-left: -10px;
 }
+.z-index-99 {
+    z-index: 99 !important;
+    position: sticky;
+}
+.font-change {
+    h1 {
+        font-weight: bold;
+    }
+    color: $white;
+    @include breakpoint(mobileonly) {
+        color: $primary;
+    }
+}
