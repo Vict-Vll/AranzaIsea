@@ -1,5 +1,5 @@
 .message-ico {
-    background-image: url('../assets/images/home1.png');
+    background-image: url('../assets/images/home/home1.png');
     width: 80px;
     height: 80px;
     background-position: center;
@@ -8,5 +8,27 @@
         margin-left: 51px;
         margin-top: -40px;
         position: absolute;
+    }
+}
+img.illustration-profile {
+    width: 180px;
+}
+span.icon-list-home {
+    position: absolute;
+    img {
+        width: 40px;
+        margin-top: 10px;
+        margin-left: -45px;
+    }
+}
+img.icon-download-home {
+    cursor: pointer;
+    width: 60px;
+    margin: 0 auto;
+    transition: .2s;
+    &:hover {
+        margin-top: -5px;
+        margin-bottom: -5px;
+        width: 70px;
     }
 }

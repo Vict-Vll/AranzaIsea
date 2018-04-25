@@ -1,0 +1,48 @@
+.container-cloud {
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    left: 0;
+    overflow: hidden;
+}
+.cloud {
+    position: absolute;
+    width: 100%;
+}
+.cloud1 {
+    top: -20px;
+    animation: cloudMove infinite 100s linear;
+}
+.cloud2 {
+    top: 480px;
+    animation: cloudMoveReverse infinite 85s linear;
+}
+.cloud3 {
+    top: 430px;
+    animation: cloudMoveReverse infinite 70s linear;
+}
+.cloud4 {
+    top: 20px;
+    animation: cloudMoveReverse infinite 95s linear;
+}
+.cloud5 {
+    top: 390px;
+    animation: cloudMove infinite 50s linear;
+}
+
+@keyframes cloudMove {
+    0% {
+        transform: translateX(-10%)
+    }
+    100% {
+        transform: translateX(100%)
+    }
+}
+@keyframes cloudMoveReverse {
+    0% {
+        transform: translateX(100%)
+    }
+    100% {
+        transform: translateX(-100%)
+    }
+}

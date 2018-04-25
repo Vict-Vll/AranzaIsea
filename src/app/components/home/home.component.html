@@ -1,17 +1,44 @@
-<app-menu fxHide.xs [color]="'white-text'" [indicator]="'white'" [home]="true"></app-menu>
-<div class="head-home">
-    <img src="../../../assets/images/logo.png" class="logo-home">
-    <div class="f-principal white-text">
-        <br>
-        <p class="line-1 anim-typewriter f-medium">
-            WEB DESIGN - ILLUSTRATION
-        </p>
+<div class="accent parallax">
+    <li class="img1"></li>
+    <li class="img2"></li>
+    <li class="img3"></li>
+    <app-menu fxHide.xs [color]="'white-text'" [indicator]="'white'" [home]="true"></app-menu>
+    <div class="container-cloud" fxHide.xs>
+        <img src="../../../assets/images/home/cloud-01.png" class="cloud cloud1" #cloud1>
+        <img src="../../../assets/images/home/cloud-02.png" class="cloud cloud4">
+        <img src="../../../assets/images/home/cloud-02.png" class="cloud cloud2">
+        <img src="../../../assets/images/home/cloud-03.png" class="cloud cloud3">
+        <img src="../../../assets/images/home/cloud-02.png" class="cloud cloud5">
     </div>
-</div>
-<div class="padd-50"> 
-    <div class="message-ico"></div>
-    <h1>Hi,<span fxHide.gt-xs><br></span>I’m Aranza</h1>
-    <p fxFlex.gt-xs="50%" class="f-secondary">Hi! I’m a UX designer based in Buenos Aires. Originally from Venezuela. I specialize in UI/UX design and have a passion for empathy towards solving user goals.</p>
+    <div class="head-home">
+        <img src="../../../assets/images/logo.png" class="logo-home">
+        <div class="f-principal white-text">
+            <br>
+            <p class="line-1 anim-typewriter f-medium">
+                WEB - UX - ILLUSTRATION
+            </p>
+        </div>
+    </div>
+    <div class="padd-50 white-text z-index-99" fxLayout="row">
+        <div fxFlex.gt-xs="200px" fxHide.xs>
+            <img src="../../../assets/images/home/aranza.png" class="illustration-profile">
+        </div>
+        <div fxFlex.gt-xs="50%" class="font-change">
+            <h1>Hi,<span fxHide.gt-xs><br></span>I’m Aranza</h1>
+            <p class="f-secondary">Hi! I’m a UX designer based in Buenos Aires. Originally from Venezuela. I specialize in UI/UX design and have a passion for empathy towards solving user goals.</p>
+            <div fxLayout="row" class="padd-10 f-principal">
+                <div class="f-small center" fxLayout="column" fxFlex="110px">
+                    <a target="blank" href="../../../assets/documents/Aranza Isea CV.pdf">
+                        <img class="icon-download-home" src="../../../assets/images/home/home2.png">
+                    </a>
+                    CV
+                </div>
+                <div class="f-small center f-principal" fxLayout="column" fxFlex="110px">
+                    <img class="icon-download-home" src="../../../assets/images/home/home3.png">Presentation letter
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <div fxLayout="row" fxLayout.xs="column">
     <div class="x-light-grey padd-50" fxFlex="50%">
@@ -20,16 +47,16 @@
     </div>
     <div class="light-grey padd-50" fxFlex="50%">
         <h2>AREAS</h2>
-        <div fxLayout="row" class="f-secondary">
-            <ul class="home-list" fxFlex="50%">
-                <li><span class="accent circle"></span>Ecommerce</li>
-                <li><span class="accent circle"></span>Administrative</li>
-                <li><span class="accent circle"></span>Advertising</li>
+        <div fxLayout="row" fxLayout.sm="column" class="f-secondary">
+            <ul class="home-list" fxFlex="50%" fxFlex.sm="100%" fxFlex.xs="50%">
+                <li><span class="icon-list-home"><img src="../../../assets/images/home/home4.png" alt=""></span>Ecommerce</li>
+                <li><span class="icon-list-home"><img src="../../../assets/images/home/home5.png" alt=""></span>Administrative</li>
+                <li><span class="icon-list-home"><img src="../../../assets/images/home/home6.png" alt=""></span>Advertising</li>
             </ul>
-            <ul class="home-list" fxFlex="50%">
-                <li><span class="accent circle"></span>Automotive</li>
-                <li><span class="accent circle"></span>Illustration</li>
-                <li><span class="accent circle"></span>Mobile services</li>
+            <ul class="home-list" fxFlex="50%" fxFlex.sm="100%" fxFlex.xs="50%">
+                <li><span class="icon-list-home"><img src="../../../assets/images/home/home7.png" alt=""></span>Automotive</li>
+                <li><span class="icon-list-home"><img src="../../../assets/images/home/home8.png" alt=""></span>Illustration</li>
+                <li><span class="icon-list-home"><img src="../../../assets/images/home/home9.png" alt=""></span>Mobile services</li>
             </ul>
         </div>
         
